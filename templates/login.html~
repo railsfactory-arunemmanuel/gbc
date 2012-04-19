@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+<form action="/sampleform/" method="post" class="form-horizontal">{% csrf_token %}
+    {{ form }}
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary"><i class="icon-user icon-white"></i>Login</button>
+    </div>
+</form>

@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+<script src="bootstrap.js"></script>
+</head>
+<body>
+<form action="/login/" method="post" class="form-horizontal">
+    <fieldset><legend>Please Login Here</legend><div class="control-group">
+    <label class="control-label" for="id_username">Username</label>
+    <div class="controls">
+        <input id="id_username" type="text" name="username" maxlength="100" />
+        
+        
+    </div>
+</div> <!-- /clearfix -->
+<div class="control-group">
+    <label class="control-label" for="id_password">Password</label>
+    <div class="controls">
+        <input id="id_password" type="password" name="password" maxlength="100" />
+        
+        
+    </div>
+</div> <!-- /clearfix -->
+</fieldset>
+    <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+</form>
+</body>
+</html>
